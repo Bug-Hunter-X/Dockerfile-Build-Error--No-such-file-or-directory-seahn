@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: the absence of a file specified in the COPY instruction or RUN pip install command. The initial Dockerfile attempts to copy and install dependencies from a `requirements.txt` that doesn't exist. The solution adds the missing file and demonstrates successful dependency installation.
